@@ -76,13 +76,13 @@
         </div>
         <div class="span4">
           <h2>Commands</h2>
-           <p>Here you can find all of Spouty's commands! Commands allows Spouty to interact with users and perform useful functions</p>
+           <p>Here you can find all of Spouty's commands! Commands allows Spouty to interact with users and perform useful functions!</p>
           <p><a class="btn" href="#">Learn More &raquo;</a></p>
        </div>
         <div class="span4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <h2>Factoids</h2>
+          <p>What are factoids? How could you use them? Where is a list of existing ones?</p>
+          <p><a class="btn" href="#">Find Out! &raquo;</a></p>
         </div>
       </div>
 
