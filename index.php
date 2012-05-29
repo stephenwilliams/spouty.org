@@ -65,15 +65,14 @@
       <div class="hero-unit">
         <h1>Welcome to Spouty's site!</h1>
         <p>Spouty is the official IRC bot of Spout. He can be found on irc://irc.esper.net!</p>
-        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
       </div>
 
       <!-- Example row of columns -->
       <div class="row">
         <div class="span4">
-          <h2>Heading</h2>
-           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <h2>Help</h2>
+           <p>Want to lean how to use Spouty? The Help page is a great place to start. There you can learn useful commands, how to use factoids, and more!</p>
+          <p><a class="btn" href="#">Learn More &raquo;</a></p>
         </div>
         <div class="span4">
           <h2>Heading</h2>
