@@ -7,7 +7,7 @@
     <meta name="description" content="Spouty's web panel">
     <meta name="author" content="SpoutDev">
 
-    <!-- The styles -->
+    <!-- Le styles -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
@@ -24,9 +24,9 @@
     <?php require_once "assets/scripts/spouty.php"; ?>
   </head>
 
-  <body>
+<body>
 
-    <div class="navbar navbar-fixed-top">
+	  <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -34,11 +34,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Spouty</a>
+          <a class="brand" href="http://spouty.org/">Spouty</a>
           <div class="nav-collapse">
             <ul class="nav pull-left">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="about">About</a></li>
+              <li><a href="http://spouty.org/">Home</a></li>
+              <li class="active"><a href="#">About</a></li>
               <li><a href="#contact">Help</a></li>
               <li><a href="#contact">Commands</a></li>
               <li><a href="#contact">Factoids</a></li>
@@ -58,43 +58,28 @@
         </div>
       </div>
     </div>
-
-     <div class="container">
-
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>Welcome to Spouty's site!</h1>
-        <p>Spouty is the official IRC bot of Spout. He can be found on irc://irc.esper.net!</p>
-      </div>
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span4">
-          <h2>Help</h2>
-           <p>Want to lean how to use Spouty? The Help page is a great place to start. There you can learn useful commands, how to use factoids, and more!</p>
-          <p><a class="btn" href="#">Learn More &raquo;</a></p>
+    
+    <div class="container">
+		<div class="page-header">
+			<h1>About</h1>
+		</div>
+        <br />    
+    	<div class="row">
+        	<div class="span6">
+        		<h2>Source</h2>
+                <p>Spouty is a Cyborg bot. Cyborg is a plugin based IRC bot written in java. You can view the source for Cyborg on <a href="https://github.com/CyborgDev">GitHub</a>. Cyborg's development is currently lead by alta (alta189), one of the Founders of Spout. Code contributions have been made by Spudstabber and Zidane (NinjaZidane). Cyborg could always use help with development so please feel free to submit a pull request on <a href="https://github.com/CyborgDev">GitHub</a>.</p>
+        	</div>
+            <div class="span6">
+            	<h2>Bot Admins</h2>
+                <p>While Spouty is the Spout Team's IRC bot, he is run by a group of Bot Admins. This allows the Spout Team to stay focused on more important tasks. The team is lead by alta. The Bot Admins include alta, brjannc, Xu_R ( Hinorashi, DarkShadowKun, NekoKun), mau5ie (Anonymau5ie, Incognito), and TheNoodle. Bot Admins have full access to Spouty and her commands. If you ever need help or need to report bot abuse, feel free to stop by ##Spouty on irc://irc.esper.net! All Bot Admins would be more than happy to assist you in using Spouty.</p>
+            </div>
         </div>
-        <div class="span4">
-          <h2>Commands</h2>
-           <p>Here you can find all of Spouty's commands! Commands allows Spouty to interact with users and perform useful functions!</p>
-          <p><a class="btn" href="#">Learn More &raquo;</a></p>
-       </div>
-        <div class="span4">
-          <h2>Factoids</h2>
-          <p>What are factoids? How could you use them? Where is a list of existing ones?</p>
-          <p><a class="btn" href="#">Find Out! &raquo;</a></p>
-        </div>
-      </div>
+    	<footer>
+        	<p>&copy; SpoutDev 2012</p>
+    	</footer>
+    </div>
 
-      <hr>
-
-      <footer>
-        <p>&copy; SpoutDev 2012</p>
-      </footer>
-
-    </div> <!-- /container -->
-
-    <!-- The javascript
+	<!-- The javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery.js"></script>
@@ -110,6 +95,5 @@
     <script src="assets/js/bootstrap-collapse.js"></script>
     <script src="assets/js/bootstrap-carousel.js"></script>
     <script src="assets/js/bootstrap-typeahead.js"></script>
-
-  </body>
+</body>
 </html>
