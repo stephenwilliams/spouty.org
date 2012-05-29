@@ -1,1 +1,1 @@
-<?php echo exec('sudo git pull');; ?>
+<?php echo nl2br(shell_exec('sudo git pull 2>&1')); ?>
