@@ -7,7 +7,7 @@
     <meta name="description" content="Spouty's web panel">
     <meta name="author" content="SpoutDev">
 
-    <!-- Le styles -->
+    <!-- The styles -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
@@ -94,7 +94,7 @@
 
     </div> <!-- /container -->
 
-    <!-- Le javascript
+    <!-- The javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery.js"></script>
