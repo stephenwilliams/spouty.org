@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
+    <title>Spouty</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Spouty's web panel">
+    <meta name="author" content="SpoutDev">
 
     <!-- Le styles -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
