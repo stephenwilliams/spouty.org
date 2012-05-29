@@ -60,14 +60,13 @@
     </div>
 
      <div class="container">
-
-      <!-- Main hero unit for a primary marketing message or call to action -->
+     
       <div class="hero-unit">
         <h1>Welcome to Spouty's site!</h1>
+        <br />
         <p>Spouty is the official IRC bot of Spout. He can be found on irc://irc.esper.net!</p>
       </div>
-
-      <!-- Example row of columns -->
+      
       <div class="row">
         <div class="span4">
           <h2>Help</h2>
