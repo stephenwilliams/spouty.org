@@ -20,37 +20,36 @@
       }
     </style>
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
 
     <?php require_once "assets/scripts/spouty.php"; ?>
   </head>
 
 <body>
 
-	  <div class="navbar navbar-fixed-top">
+	  
+
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="http://spouty.org/">Spouty</a>
+          <a class="brand" href="/">Spouty</a>
           <div class="nav-collapse">
             <ul class="nav pull-left">
-              <li><a href="http://spouty.org/">Home</a></li>
-              <li class="active"><a href="#">About</a></li>
-              <li><a href="#contact">Help</a></li>
-              <li><a href="#contact">Commands</a></li>
-              <li><a href="#contact">Factoids</a></li>
+              <li><a href="/">Home</a></li>
+              <li class="active"><a href="about">About</a></li>
+              <li><a href="help">Help</a></li>
+              <li><a href="commands">Commands</a></li>
+              <li><a href="factoids">Factoids</a></li>
             </ul>
             <ul class="nav pull-right">
               <li><a>Status:</a></li>
               <li class="divider-vertical"></li>
               <?php 
 			  	if (isSpoutyOnline()) {
-					print '<li><a><span class="label label-success">Online</span></a></li>';
+					print '<li class="status"><span class="label label-success">Online</span></li>';
 				} else {
-					print '<li><a><span class="label label-important">Offline</span></a></li>';
+					print '<li class="status"><span class="label label-important">Offline</span></li>';
 				}
 			  ?>
             </ul>
