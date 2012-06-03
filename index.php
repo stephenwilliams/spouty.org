@@ -23,7 +23,10 @@
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <link href="assets/css/docs.css" rel="stylesheet">
 
-    <?php require_once "assets/scripts/spouty.php"; ?>
+    <?php 
+		require_once "assets/scripts/spouty.php"; 
+		$online = isSpoutyOnline();
+	?>
   </head>
 
   <body>
@@ -44,7 +47,7 @@
               <li><a>Status:</a></li>
               <li class="divider-vertical"></li>
               <?php 
-			  	if (isSpoutyOnline()) {
+			  	if ($online) {
 					print '<li class="status"><span class="label label-success">Online</span></li>';
 				} else {
 					print '<li class="status"><span class="label label-important">Offline</span></li>';
