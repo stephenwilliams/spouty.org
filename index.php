@@ -71,17 +71,17 @@
         <div class="span4">
           <h2>Help</h2>
            <p>Want to lean how to use Spouty? The Help page is a great place to start. There you can learn useful commands, how to use factoids, and more!</p>
-          <p><a class="btn" href="#">Learn More &raquo;</a></p>
+          <p><a class="btn" href="help">Learn More &raquo;</a></p>
         </div>
         <div class="span4">
           <h2>Commands</h2>
            <p>Here you can find all of Spouty's commands! Commands allows Spouty to interact with users and perform useful functions!</p>
-          <p><a class="btn" href="#">Learn More &raquo;</a></p>
+          <p><a class="btn" href="commands">Learn More &raquo;</a></p>
        </div>
         <div class="span4">
           <h2>Factoids</h2>
           <p>What are factoids? How could you use them? Where is a list of existing ones?</p>
-          <p><a class="btn" href="#">Find Out! &raquo;</a></p>
+          <p><a class="btn" href="factoids">Find Out! &raquo;</a></p>
         </div>
       </div>
 
