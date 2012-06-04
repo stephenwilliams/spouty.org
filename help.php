@@ -76,24 +76,27 @@
 	<div class="row">
 		<div class="span12">
         	<p>If you haven't figured out what Spouty is already, Spouty is an IRC bot. He is currently on his 4th version. Versions 1 &amp; 2 were both simple implementations of <a href="http://www.jibble.org/pircbot.php">PircBot</a> that had a few simple commands and reported commits to #spoutdev. The 3rd version is much more like the current version. Spouty v3 ran on a plugin-based IRC API built over <a href="http://code.google.com/p/pircbotx/">PircBotX 1.6</a> called <a href="https://github.com/ChavaBot">ChavaBot</a>. ChavaBot was developed mainly by alta189. However, ChavaBot had many design flaws that made it a mess, so <a href="https://github.com/CyborgDev">Cyborg</a> was started as a complete rewrite of ChavaBot. Spouty v4 currently runs Cyborg, all the availible Cyborg plugins, and 1 custom Cyborg plugin aptly called 'Spouty' that contains Spouty specific functions. </p><p style="text-indent:25px;">
-            On irc.esper.net, you can visit the channel, ##Spouty, to play with Spouty or to get help from one of the Bot Admins. As said on the <a href="about">About Page</a>, the Bot Admins are a group of individuals that manage and run Spouty. </p>
+            You can visit ##Spouty on irc.esper.net to play with Spouty or to get help from one of the <a href="about">Bot Admins</a>.</p>
         </div>
     </div>
 </section>
 
 <section id="accounts">
 	<div class="page-header">
-    	<h1>Accounts <small>give you more access! Help for registering and managing your account</small></h1>
+    	<h1>Accounts <small>Letting Spouty know who you are</small></h1>
 	</div>
 	<div class="row">
 		<div class="span12">
-        	<p>Spouty uses a account system to manage what commands and features users have access to. The account system is very dynamic. It uses your ident and your hostmask to auto auth you (Example: nick!ident@hostmask). Your account stores a password (hashed with SHA-1), your permissions, your groups, and your associated hostnames. You can temporarily or permanently add hostnames to your account. </p> <p>
-            First you need to register with Spouty. This needs to be done in a private message. It is suggested that your account name be your primary nick.<br /> 
+        	<p>Spouty uses a account system to manage what commands and features users have access to. The account system is very dynamic. It uses your username (Example: nick!ident@hostmask) to identify you with Spouty. Your account stores a secure password, your permissions, your groups, and your associated hostnames. You can temporarily or permanently add hostnames to your account. </p>
+            <p>First you need to register with Spouty. It is suggested that your account name be your primary nick.
+            <span class="label label-important">WARNING</span> You must private message the following command.<br /> 
             <code>.register Account_Name password</code>
-            </p> <p>If you want to add another hostmask to your account execute the following command. This also has to be done in private message.<br /> 
+            </p> <p>If you want to add another hostmask to your account execute the following command.
+            <span class="label label-important">WARNING</span> You must private message the following command.<br /> 
             <code>.addhostname Account_Name password</code>
             </p> <p>
-            If you want to temporarily authenticate, you need to use the authenticate command. This command needs to be used in a private message.<br /> 
+            If you want to temporarily authenticate, you need to use the authenticate command.
+            <span class="label label-important">WARNING</span> You must private message the following command.<br /> 
             <code>.authenticate Account_Name password</code>
             </p> <p>Any questions concerning Spouty's account system can be answered by the Bot Admins in ##Spouty. <br />
             <span class="label label-info">Remember!</span>&nbsp;&nbsp;Passwords are hashed with SHA-1 and not logged in Spouty's IRC logs!
