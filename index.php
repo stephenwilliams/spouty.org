@@ -23,7 +23,9 @@ body {
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <link href="assets/css/docs.css" rel="stylesheet">
     <?php 
-		require_once "assets/scripts/spouty.php"; 
+		foreach (glob("assets/scripts/*.php") as $filename) {
+		    include_once $filename;
+		}
 		$online = isSpoutyOnline();
 	?>
     </head>
@@ -80,9 +82,7 @@ body {
 			</div>
 	</div>
 		<hr>
-		<footer>
-		<p>&copy; SpoutDev 2012</p>
-	</footer>
+		<?php include_once "footer.php"?>
 	</div>
 <!-- /container --> 
 

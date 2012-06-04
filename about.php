@@ -23,7 +23,9 @@ body {
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <link href="assets/css/docs.css" rel="stylesheet">
     <?php 
-		require_once "assets/scripts/spouty.php"; 
+		foreach (glob("assets/scripts/*.php") as $filename) {
+		    include_once $filename;
+		}
 		$online = isSpoutyOnline();
 	?>
     </head>
@@ -71,9 +73,7 @@ body {
 				<p>While Spouty is the Spout Team's IRC bot, he is run by a group of Bot Admins. This allows the Spout Team to stay focused on more important tasks. The team is lead by alta. The Bot Admins include alta, brjannc, Xu_R ( Hinorashi, DarkShadowKun, NekoKun), mau5ie (Anonymau5ie, Incognito), and TheNoodle. Bot Admins have full access to Spouty and her commands. If you ever need help or need to report bot abuse, feel free to stop by ##Spouty on irc://irc.esper.net! All Bot Admins would be more than happy to assist you in using Spouty.</p>
 			</div>
 	</div>
-		<footer>
-		<p>&copy; SpoutDev 2012</p>
-	</footer>
+		<?php include_once "footer.php"?>
 	</div>
 
 <!-- The javascript

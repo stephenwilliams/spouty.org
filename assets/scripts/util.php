@@ -22,4 +22,16 @@
 		}
 		return true;
 	}
+	
+	function getCurrentFile() {
+		return $_SERVER['SCRIPT_FILENAME'];
+	}
+	
+	function getFileModifiedDate($file, $format = 'd/m/Y G:i:s T') {
+		return gmdate($format, filemtime($file));
+	}
+	
+	function getDefaultDateFormat() {
+		return "d/m/Y G:i:s T";
+	}
 ?>
