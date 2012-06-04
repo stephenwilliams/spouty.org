@@ -87,7 +87,7 @@
 	</div>
 	<div class="row">
 		<div class="span12">
-        	<p>Spouty uses a account system to manage what commands and features users have access to. The account system is very dynamic. It uses your ident and your hostmask to auto auth you(Example: nick!ident@hostmask). Your account stores a password (hashed with SHA-1), your permissions, your groups, and your associated hostnames. You can add hostnames to your account, or you can temporarily add a hostname to Spouty. </p> <p>
+        	<p>Spouty uses a account system to manage what commands and features users have access to. The account system is very dynamic. It uses your ident and your hostmask to auto auth you (Example: nick!ident@hostmask). Your account stores a password (hashed with SHA-1), your permissions, your groups, and your associated hostnames. You can temporarily or permanently add hostnames to your account. </p> <p>
             First you need to register with Spouty. This needs to be done in a private message. It is suggested that your account name be your primary nick.<br /> 
             <code>.register Account_Name password</code>
             </p> <p>If you want to add another hostmask to your account execute the following command. This also has to be done in private message.<br /> 
@@ -101,6 +101,17 @@
         </div>
     </div>
 </section>
+
+<section id="factoids">
+	<div class="page-header">
+    	<h1>Factoids <small>The dynamic factoid system that </small></h1>
+	</div>
+	<div class="row">
+		<div class="span12">
+        </div>
+	</div>
+</section>
+
       <hr>
 
       <footer>
