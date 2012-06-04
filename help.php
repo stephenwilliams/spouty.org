@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <title>Spouty</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Spouty's web panel">
-    <meta name="author" content="SpoutDev">
+<head>
+<meta charset="utf-8">
+<title>Spouty</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Spouty's web panel">
+<meta name="author" content="SpoutDev">
 
-    <!-- The styles -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
+<!-- The styles -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<style type="text/css">
 body {
 	padding-top: 60px;
 	padding-bottom: 40px;
@@ -19,55 +19,56 @@ body {
 	padding: 9px 0;
 }
 </style>
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-    <link href="assets/css/docs.css" rel="stylesheet">
-    <?php 
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+<link href="assets/css/docs.css" rel="stylesheet">
+<?php 
 		require_once "assets/scripts/spouty.php"; 
 		$online = isSpoutyOnline();
 	?>
-    </head>
+</head>
 
-    <body data-spy="scroll" data-target=".subnav" data-offset="50">
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
 <div class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
+	<div class="navbar-inner">
 		<div class="container"> <a class="brand" href="/">Spouty</a>
-				<div class="nav-collapse">
+			<div class="nav-collapse">
 				<ul class="nav pull-left">
-						<li><a href="/">Home</a></li>
-						<li><a href="about">About</a></li>
-						<li class="active"><a href="help">Help</a></li>
-						<li><a href="commands">Commands</a></li>
-						<li><a href="factoids">Factoids</a></li>
-					</ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="about">About</a></li>
+					<li class="active"><a href="help">Help</a></li>
+					<li><a href="commands">Commands</a></li>
+					<li><a href="factoids">Factoids</a></li>
+				</ul>
 				<ul class="nav pull-right">
-						<li><a>Status:</a></li>
-						<li class="divider-vertical"></li>
-						<?php 
+					<li><a>Status:</a></li>
+					<li class="divider-vertical"></li>
+					<?php 
 			  	if ($online) {
 					print '<li class="status"><span class="label label-success">Online</span></li>';
 				} else {
 					print '<li class="status"><span class="label label-important">Offline</span></li>';
 				}
 			  ?>
-					</ul>
+				</ul>
 			</div>
 				<!--/.nav-collapse --> 
 			</div>
 	</div>
 </div>
 <div class="container">
-		<header class="jumbotron subhead" id="overview">
+	<header class="jumbotron subhead" id="overview">
 		<h1>Help</h1>
 		<p class="lead">This page will teach you everything that you need to know about how to use Spouty!</p>
 		<div class="subnav">
-				<ul class="nav nav-pills">
+			<ul class="nav nav-pills">
 				<li><a href="#general">General</a></li>
 				<li><a href="#accounts">Accounts</a></li>
+				<li><a href="#accounts">Factoids</a></li>
 			</ul>
-			</div>
+		</div>
 	</header>
-		<section id="general">
+	<section id="general">
 		<div class="page-header">
 				<h1>General Help <small>Spouty's channel, the Bot Admins, etc</small></h1>
 			</div>
@@ -107,15 +108,28 @@ body {
 	<div class="page-header">
     	<h1>Factoids <small>The dynamic factoid system that </small></h1>
 			</div>
+
 		<div class="row">
-				<div class="span12"> </div>
+			<div class="span12">
+				<p>What are factoids? Simply put, factoids are dynamic commands that anyone can create or modify. The factoid system can be used in many ways. For example, it could be used for a simple fun command or be used for a FAQ. Factoids are probably the single most important feature of Spouty. They make her useful to the community and the Spout team. The factoid system is completely open, <strong>unless</strong> you don't follow these simple rules</p>
+				<ol>
+					<li>Any user that creates a factoid that violates the Spout IRC rules will have their factoid permissions removed</li>
+					<li>Any user that creates a factoid that a Bot Admin decides is inappropriate may lose their factoid permissions</li>
+					<li>Any user that creates factoids with the intent to use them to spam will have their factoid permissions removed</li>
+					<li>Any user that abuses the factoid system will have their factoid permissions removed</li>
+				</ol>
+				<p>Triggering factoids is easy. There are two kinds of factoids, global and local. A global factoid can be used in any channel and is the default when creating or modifying a factoid. A local factoid can only be used in the channel that it was created in. Likewise, there are two factoid prefixes, <code>!</code> and <code>?</code>. <code>!</code> will look for global factoids first and if it cannot find one, it will search for a local factoid. <code>?</code> will look for a local factoid first and if it cannot find one, it will search for a global factoid.
+				</p>
+				<p>
+				</p>
 			</div>
+		</div>
 	</section>
-		<hr>
-		<footer>
+	<hr>
+	<footer>
 		<p>&copy; SpoutDev 2012</p>
 	</footer>
-	</div>
+</div>
 <!-- /container --> 
 
 <!-- The javascript
@@ -134,6 +148,6 @@ body {
 <script src="assets/js/bootstrap-button.js"></script> 
 <script src="assets/js/bootstrap-collapse.js"></script> 
 <script src="assets/js/bootstrap-carousel.js"></script> 
-<script src="assets/js/bootstrap-typeahead.js"></script>
+<script src="assets/js/application.js"></script>
 </body>
 </html>
