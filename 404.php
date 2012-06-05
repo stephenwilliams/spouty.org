@@ -7,17 +7,11 @@
     <meta name="description" content="Spouty's web panel">
     <meta name="author" content="SpoutDev">
 
-body {
-	padding-top: 60px;
-	padding-bottom: 40px;
-	margin: 0 auto;
-}
-.sidebar-nav {
-	padding: 9px 0;
-}
 </style>
     <?php 
-		require_once "assets/scripts/spouty.php"; 
+		foreach (glob("assets/scripts/*.php") as $filename) {
+		    include_once $filename;
+		}
 		$online = isSpoutyOnline();
 	?>
     </head>
@@ -52,14 +46,15 @@ body {
 	</div>
 <div class="container">
 	<div class="hero-unit">
-		<h1>WTF have you done?</h1>
+		<h1>WTF have you done?!</h1>
 		<br />
 		<p>You broke our site! Even the formatting's gone! :( So mean!</p>
 		<p>Do I really have to get Spouty to watch you like a little child?</p>
+		<p>Shame on you!</p>
 	</div>
 		<hr>
 	<footer>
-		<p>&copy; SpoutDev 2012</p>
+		<p>&copy; SpoutDev WHATEVER YEAR IT IS, BUT I CAN'T TELL BECAUSE YOU BROKEZ THE INTERWEBS</p>
 	</footer>
 </div>
 <!-- /container --> 
