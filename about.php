@@ -31,33 +31,7 @@ body {
     </head>
 
     <body>
-<div class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
-		<div class="container"> <a class="brand" href="/">Spouty</a>
-				<div class="nav-collapse">
-				<ul class="nav pull-left">
-						<li><a href="/">Home</a></li>
-						<li class="active"><a href="about">About</a></li>
-						<li><a href="help">Help</a></li>
-						<li><a href="commands">Commands</a></li>
-						<li><a href="factoids">Factoids</a></li>
-					</ul>
-				<ul class="nav pull-right">
-						<li><a>Status:</a></li>
-						<li class="divider-vertical"></li>
-						<?php 
-			  	if ($online) {
-					print '<li class="status"><span class="label label-success">Online</span></li>';
-				} else {
-					print '<li class="status"><span class="label label-important">Offline</span></li>';
-				}
-			  ?>
-					</ul>
-			</div>
-				<!--/.nav-collapse --> 
-			</div>
-	</div>
-	</div>
+<?php include_once "navbar.php"; ?>
 <div class="container">
 		<div class="page-header">
 		<h1>About</h1>
