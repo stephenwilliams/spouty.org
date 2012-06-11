@@ -16,7 +16,7 @@
 						<li'; if ($pageName == "factoids") {print ' class="active"';} print '><a href="factoids">Factoids</a></li>
 					</ul>
 				<ul class="nav pull-right">
-						<li><a>Status:</a></li>
+						<li'; if ($pageName == "status") {print ' class="active"';} print '><a href="status">Status:</a></li>
 						<li class="divider-vertical"></li>
 						' ;
 			  	if ($online) {
