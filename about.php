@@ -32,9 +32,9 @@ body {
     <body>
 <?php include_once "navbar.php"; ?>
 <div class="container">
-		<div class="page-header">
+		<header class="jumbotron subhead" id="overview">
 		<h1>About</h1>
-	</div>
+	</header>
 		<br />
 		<div class="row">
 		<div class="span6">
