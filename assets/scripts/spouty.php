@@ -24,7 +24,7 @@ function getCyborg() {
 	$httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 	curl_close($ch);
 	if ($httpcode == 200) {
-		return $f;
+		return json_decode($f, true);
 	}
 	return null;
 }
