@@ -29,7 +29,7 @@
 						<li><a href="factoids">Factoids</a></li>
 					</ul>
 				<ul class="nav pull-right">
-						<li><a>Status:</a></li>
+						<li><a href="status">Status:</a></li>
 						<li class="divider-vertical"></li>
 						<?php 
 			  	if ($online) {
