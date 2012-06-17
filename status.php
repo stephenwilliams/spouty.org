@@ -59,7 +59,7 @@ body {
 			<h3>Bot Info</h3>
 			<p class="ident"><strong>Nick:</strong> <?php if (isset($cyborg)) print $cyborg['nick'];?>
 			<br />
-			<p class="ident"><strong>Ident:</strong>: <?php if (isset($cyborg)) print $cyborg['ident'];?>
+			<p class="ident"><strong>Ident:</strong> <?php if (isset($cyborg)) print $cyborg['ident'];?>
 			<br />
 			<p class="ident"><strong>Hostmask:</strong> <?php if (isset($cyborg)) print $cyborg['hostmask'];?>
 			<br />
