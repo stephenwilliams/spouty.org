@@ -35,7 +35,7 @@ body {
 	<div class="hero-unit">
 		<h1>Welcome to Spouty's site!</h1>
 		<br />
-		<p>Spouty is the official IRC bot of Spout. He can be found on irc://irc.esper.net!</p>
+		<p>Spouty is the official IRC bot of Spout. She can be found on irc://irc.esper.net!</p>
 	</div>
 	<div class="row">
 		<div class="span4">
